@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'geqiangbaoPriHttpEngine_Example' do
-  pod 'geqiangbaoPriHttpEngine', :path => '../'
+  pod 'geqiangbaoPriHttpEngine', :path => '../geqiangbaoPriHttpEngine.podspec'
 
   target 'geqiangbaoPriHttpEngine_Tests' do
     inherit! :search_paths

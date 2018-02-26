@@ -1,0 +1,6 @@
+framework module geqiangbaoPriHttpEngine {
+  umbrella header "geqiangbaoPriHttpEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

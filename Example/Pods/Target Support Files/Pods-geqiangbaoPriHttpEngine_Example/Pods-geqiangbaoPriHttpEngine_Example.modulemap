@@ -1,0 +1,6 @@
+framework module Pods_geqiangbaoPriHttpEngine_Example {
+  umbrella header "Pods-geqiangbaoPriHttpEngine_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
