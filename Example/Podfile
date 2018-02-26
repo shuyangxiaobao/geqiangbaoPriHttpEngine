@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'geqiangbaoPriHttpEngine_Example' do
+  pod 'geqiangbaoPriHttpEngine', :path => '../'
+
+  target 'geqiangbaoPriHttpEngine_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
